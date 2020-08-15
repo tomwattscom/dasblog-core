@@ -106,7 +106,7 @@ namespace DasBlog.Web.Controllers
 
 			ViewData["Message"] = "Your application description page.";
 
-			return NoContent();
+			return View();
 		}
 
 		public IActionResult Contact()
@@ -115,7 +115,7 @@ namespace DasBlog.Web.Controllers
 
 			ViewData["Message"] = "Your contact page.";
 
-			return NoContent();
+			return View();
 		}
 
 		public IActionResult Error()
